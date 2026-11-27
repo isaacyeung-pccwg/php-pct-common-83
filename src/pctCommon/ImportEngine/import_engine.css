@@ -1,0 +1,80 @@
+.project_lvl thead { background: none repeat scroll 0 0 #55CC55; color:#ffffff;}
+.project_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+.request_lvl thead { background: none repeat scroll 0 0 #3399FF; color:#ffffff;}
+.request_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+.solution_lvl thead { background: none repeat scroll 0 0 #FFEE66; color:#555555;}
+.solution_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+.component_lvl thead { background: none repeat scroll 0 0 #FF6600; color:#ffffff;}
+.component_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+.costitem_lvl thead { background: none repeat scroll 0 0 #9933CC; color:#ffffff;}
+.costitem_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+.oldsr_lvl thead { background: none repeat scroll 0 0 #666666; color:#ffffff;}
+.oldsr_lvl tbody { background: none repeat scroll 0 0 #eeeeee;}
+
+th, td { padding:2px; text-align: left;}
+
+div { padding:0;margin:0;}
+
+span { font-weight:bold; font-size:12px;}
+
+body{
+	margin:0;
+	padding:60 0 0 0;
+	font-family: Verdana, helvetica, arial, sans-serif;
+}
+
+div#header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:55px;
+}
+
+@media screen{
+	body>div#header{
+	position:fixed;
+}
+
+#table1 tr { background: #eeeeee;}
+#table1 #row_title { background: none repeat scroll 0 0 #3399FF; color:#ffffff; font-weight:bold; white-space:nowrap;}
+
+li#sec_2 table {width: 3000;}
+li#sec_2 tr { background: #eeeeee;}
+li#sec_2 #row_title { background: none repeat scroll 0 0 #55CC55; color:#ffffff; font-weight:bold; white-space:nowrap;}
+
+li#sec_3 tr { background: #eeeeee;}
+li#sec_3 #row_title { background: none repeat scroll 0 0 #FFEE66; color:#555555; font-weight:bold; white-space:nowrap;}
+
+li#sec_4 tr { background: #eeeeee;}
+li#sec_4 #row_title { background: none repeat scroll 0 0 #FF6600; color:#ffffff; font-weight:bold; white-space:nowrap;}
+
+li#sec_5 tr { background: #eeeeee;}
+li#sec_5 #row_title { background: none repeat scroll 0 0 #9933CC; color:#ffffff; font-weight:bold; white-space:nowrap;}
+
+li#sec_7 tr { background: #eeeeee;}
+li#sec_7 #row_title { background: none repeat scroll 0 0 #2B4E72; color:#ffffff; font-weight:bold; white-space:nowrap;}
+li#sec_7 td { text-align: right;}
+
+#table1 {width: 100%;}
+
+#DialogWarning {color:red; font-weight:bold;}
+ 
+#invalid_data {color:red;}
+
+#banner { padding: 15px; background-color: #06b; color: white; font-size: large; border-bottom: 1px solid #ccc;
+    background: url(bg.gif) repeat-x; text-align: center }
+
+h1, h2 { font-family: 'trebuchet ms', verdana, arial; padding: 10px; margin: 0 }
+h1 { font-size: large }	
+
+TD {
+   font-size : 10pt;
+   line-height : 100%;
+   font-family : Arial 
+}

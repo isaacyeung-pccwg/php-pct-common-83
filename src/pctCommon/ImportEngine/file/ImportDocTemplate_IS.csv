@@ -1,0 +1,6 @@
+Desc.,Start Date,End Date,Qty,Vendor Ref.,PO Number,Invoice Amount,Disputed Amt,PR Requester,Tax Info,GL Code,Tax Code
+Item 1,2015-12-03,2015-12-31,1,2929,no PO,100,0,,Tax,,
+Item 2,2015-12-03,2015-12-31,1,2930,no PO,-100,0,,0,,
+Item 3,2015-12-03,2015-12-31,1,2931,330000126,100,0,,Late Payment,611000000000000000,
+Item 4,2015-12-03,2015-12-31,1,2932,330000122,100,0,,Interest,,
+Item 5,2015-12-03,2015-12-31,1,2929,no PO,100,0,,,,
